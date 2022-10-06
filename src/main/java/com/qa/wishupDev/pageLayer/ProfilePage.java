@@ -1,11 +1,11 @@
 package com.qa.wishupDev.pageLayer;
 
+import org.makeMyTrip.base.BasePage;
+import org.makeMyTrip.driver.DriverManager;
+import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import org.ravi.driver.DriverManager;
-import org.ravi.enums.ExplicitWaitExpextecConditions;
-import org.ravi.pages.BasePage;
 
 
 public class ProfilePage extends BasePage {

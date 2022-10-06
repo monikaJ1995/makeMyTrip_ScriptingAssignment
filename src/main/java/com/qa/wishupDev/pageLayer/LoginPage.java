@@ -1,10 +1,10 @@
 package com.qa.wishupDev.pageLayer;
 
+import org.makeMyTrip.base.BasePage;
+import org.makeMyTrip.driver.DriverManager;
+import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
+import org.makeMyTrip.reports.ExtentLogger;
 import org.openqa.selenium.By;
-import org.ravi.driver.DriverManager;
-import org.ravi.enums.ExplicitWaitExpextecConditions;
-import org.ravi.pages.BasePage;
-import org.ravi.reports.ExtentLogger;
 
 
 public class LoginPage extends BasePage{

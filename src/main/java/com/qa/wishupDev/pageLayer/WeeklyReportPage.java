@@ -1,8 +1,8 @@
 package com.qa.wishupDev.pageLayer;
 
+import org.makeMyTrip.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.ravi.pages.BasePage;
 
 
 public class WeeklyReportPage extends BasePage {

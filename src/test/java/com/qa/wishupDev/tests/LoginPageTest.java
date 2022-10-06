@@ -12,7 +12,7 @@ import com.qa.wishupDev.pageLayer.LoginPage;
 public class LoginPageTest extends BaseTest{
 
 
-	@Test(enabled=true,dataProviderClass= org.ravi.dataprovider.DataProviderUtil.class, dataProvider="testData")
+	@Test(enabled=true,dataProviderClass= org.makeMyTrip.dataprovider.DataProviderUtil.class, dataProvider="testData")
 	public void verifyLogin(Map<String, String> map)
 	{
 		System.out.println(" method start");

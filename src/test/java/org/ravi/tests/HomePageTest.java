@@ -1,8 +1,8 @@
 package org.ravi.tests;
 
+import org.makeMyTrip.driver.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.ravi.driver.DriverManager;
 import org.testng.annotations.Test;
 
 import com.qa.wishupDev.tests.BaseTest;

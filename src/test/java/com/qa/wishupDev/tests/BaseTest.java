@@ -1,6 +1,6 @@
 package com.qa.wishupDev.tests;
 
-import org.ravi.driver.Driver;
+import org.makeMyTrip.driver.Driver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 

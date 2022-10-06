@@ -2,10 +2,10 @@ package com.qa.wishupDev.pageLayer;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.makeMyTrip.base.BasePage;
+import org.makeMyTrip.driver.DriverManager;
+import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
 import org.openqa.selenium.By;
-import org.ravi.driver.DriverManager;
-import org.ravi.enums.ExplicitWaitExpextecConditions;
-import org.ravi.pages.BasePage;
 
 public class FeedbackPage extends BasePage {
 	private By By_createFeedback = By.xpath("(//div[contains(@class,'ui workspace')]//a[normalize-space()='Create a feedback'])");

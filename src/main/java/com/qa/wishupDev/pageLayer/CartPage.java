@@ -2,13 +2,13 @@ package com.qa.wishupDev.pageLayer;
 
 import java.util.Set;
 
+import org.makeMyTrip.base.BasePage;
+import org.makeMyTrip.driver.DriverManager;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.ravi.driver.DriverManager;
-import org.ravi.pages.BasePage;
 
 
 public class CartPage extends BasePage {
