@@ -104,24 +104,11 @@ public class HotelsWebPage extends BasePage{
 		
 	}
 	
-	public void performMouseHoverAction()
-	{
-		
-	}
-	
 	public String selectCheckOutDate(String Str_month, String Str_checkoutDate) throws InterruptedException
 	{
-//		setSelectDateDynamicXpath(Str_checkoutDate);
-//		Actions action = new Actions(DriverManager.getDriver());
-//		WebElement checkoutDate = DriverManager.getDriver().findElement(By_checkInDate);
-//		action.moveToElement(checkoutDate).build().perform();
-//		String Str_dateBackgroundColorRGB = checkoutDate.getCssValue("background-color");
-//		click(By_checkInDate, ExplicitWaitExpectedConditions.CLICKABLE);
-//		//Thread.sleep(2000);
-		
+	
 		while(!driver.findElement(By_datePickerMonth).getText().contains(Str_month))
 		{
-//			DriverManager.getDriver().findElement(By_nextMonthNavButton).click();
 			click(By_nextMonthNavButton, ExplicitWaitExpectedConditions.NONE);
 		}	
 		List<WebElement> days = driver.findElements(By_daysOfMonth);
