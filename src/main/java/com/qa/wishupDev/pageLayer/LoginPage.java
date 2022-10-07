@@ -2,7 +2,7 @@ package com.qa.wishupDev.pageLayer;
 
 import org.makeMyTrip.base.BasePage;
 import org.makeMyTrip.driver.DriverManager;
-import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
+import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.makeMyTrip.reports.ExtentLogger;
 import org.openqa.selenium.By;
 
@@ -21,19 +21,19 @@ public class LoginPage extends BasePage{
 
 		DriverManager.getDriver().manage().window().maximize();
 		//Enter valid email in the field
-		enterText(By_emailField, Str_email , ExplicitWaitExpextecConditions.PRESENSCE);
+		enterText(By_emailField, Str_email , ExplicitWaitExpectedConditions.PRESENSCE);
 		return this;
 	}
 	
 	public LoginPage enterPassword(String password) {
 
-		enterText(By_passwordField, password,ExplicitWaitExpextecConditions.NONE);
+		enterText(By_passwordField, password,ExplicitWaitExpectedConditions.NONE);
 		ExtentLogger.pass("Password Entered");
 		return this;
 	}
 
 	public Dashboard clickLogin() {
-		click(By_logInSubmit,ExplicitWaitExpextecConditions.CLICKABLE);
+		click(By_logInSubmit,ExplicitWaitExpectedConditions.CLICKABLE);
 		return new Dashboard();
 	}
 	public String getTitle() {

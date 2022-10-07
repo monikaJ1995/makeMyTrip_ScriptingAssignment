@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.makeMyTrip.base.BasePage;
 import org.makeMyTrip.driver.DriverManager;
-import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
+import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.openqa.selenium.By;
 
 public class FeedbackPage extends BasePage {
@@ -23,7 +23,7 @@ public class FeedbackPage extends BasePage {
 	{
 		//Click on create feedback button
 		log.info("Click on create feedback button");
-		click(By_createFeedback,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_createFeedback,ExplicitWaitExpectedConditions.PRESENSCE);
 		
 		return getURL();
 	}
@@ -32,7 +32,7 @@ public class FeedbackPage extends BasePage {
 	public FeedbackPage clickOnGiveFeedback()
 	{
 		//Click on give feedback button for the specific resource
-		click(By_giveFeedback,ExplicitWaitExpextecConditions.PRESENSCE);	
+		click(By_giveFeedback,ExplicitWaitExpectedConditions.PRESENSCE);	
 		//return getURL();
 		return this;
 	}
@@ -44,10 +44,10 @@ public class FeedbackPage extends BasePage {
 		/*Select time span during which want to give Feedback*/
 		log.info("Selecting time span for feedback");
 		//Select from date
-		enterText(By_fromdate, "August 1, 2022", ExplicitWaitExpextecConditions.PRESENSCE);
+		enterText(By_fromdate, "August 1, 2022", ExplicitWaitExpectedConditions.PRESENSCE);
 		log.info("From date entered");
 		//Select to date
-		enterText(By_todate, "August 8, 2022", ExplicitWaitExpextecConditions.PRESENSCE);
+		enterText(By_todate, "August 8, 2022", ExplicitWaitExpectedConditions.PRESENSCE);
 		log.info("To date entered");
 		return this;
 	}
@@ -56,7 +56,7 @@ public class FeedbackPage extends BasePage {
 	public FeedbackPage giveStarRating()
 	{
 		//select 5star rating
-		click(By_starRating,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_starRating,ExplicitWaitExpectedConditions.PRESENSCE);
 		log.info("Star rating done");
 		return this;
 	}
@@ -65,7 +65,7 @@ public class FeedbackPage extends BasePage {
 	public FeedbackPage enterComments()
 	{
 		//Enter feedback comments
-		enterText(By_feedbackComments, "Great Work!!", ExplicitWaitExpextecConditions.PRESENSCE);
+		enterText(By_feedbackComments, "Great Work!!", ExplicitWaitExpectedConditions.PRESENSCE);
 		log.info("Entered feedback comments in feedback comments field");
 		return this;
 	}
@@ -75,7 +75,7 @@ public class FeedbackPage extends BasePage {
 	public String clickOnSubmitFeedback()
 	{
 		//Submit Feedback click
-		click(By_submitFeedback,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_submitFeedback,ExplicitWaitExpectedConditions.PRESENSCE);
 		log.info("Clicked on submit button");
 
 		//get response message after feedback submission

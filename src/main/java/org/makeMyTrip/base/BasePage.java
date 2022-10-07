@@ -1,7 +1,7 @@
 package org.makeMyTrip.base;
 
 import org.makeMyTrip.driver.DriverManager;
-import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
+import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.makeMyTrip.generics.ExplicitWaitConditions;
 import org.makeMyTrip.reports.ExtentLogger;
 import org.openqa.selenium.By;
@@ -9,13 +9,13 @@ import org.openqa.selenium.WebElement;
 
 public class BasePage {
 
-	protected void click(By by, ExplicitWaitExpextecConditions expectedCondition) {
+	protected void click(By by, ExplicitWaitExpectedConditions expectedCondition) {
 		WebElement element= ExplicitWaitConditions.performExplicitWait(by, expectedCondition);
 		element.click();
 		ExtentLogger.pass("Clicked on "+by+"Succesfully");
 	}
 
-	protected void enterText(By by, String strText , ExplicitWaitExpextecConditions expectedCondition) {
+	protected void enterText(By by, String strText , ExplicitWaitExpectedConditions expectedCondition) {
 
 		WebElement element= ExplicitWaitConditions.performExplicitWait(by, expectedCondition);
 		element.clear();

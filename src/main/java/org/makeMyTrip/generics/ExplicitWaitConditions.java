@@ -4,7 +4,7 @@ import java.time.Duration;
 
 import org.makeMyTrip.constants.FrameworkConstants;
 import org.makeMyTrip.driver.DriverManager;
-import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
+import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,19 +16,19 @@ public class ExplicitWaitConditions {
 	{
 		
 	}
-		public static WebElement performExplicitWait(By by, ExplicitWaitExpextecConditions exConditions) {
+		public static WebElement performExplicitWait(By by, ExplicitWaitExpectedConditions exConditions) {
 			
 			WebElement element=null;
 			
-			if(exConditions == ExplicitWaitExpextecConditions.VISIBILE)		{
+			if(exConditions == ExplicitWaitExpectedConditions.VISIBLE)		{
 				element = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.getExplicitWaitTime())).until(ExpectedConditions.visibilityOfElementLocated(by));	
 				
-			}else if(exConditions == ExplicitWaitExpextecConditions.CLICKABLE) {
+			}else if(exConditions == ExplicitWaitExpectedConditions.CLICKABLE) {
 				element = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.getExplicitWaitTime())).until(ExpectedConditions.elementToBeClickable(by));	
 				
-			}else if (exConditions == ExplicitWaitExpextecConditions.PRESENSCE) {
+			}else if (exConditions == ExplicitWaitExpectedConditions.PRESENSCE) {
 				element = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.getExplicitWaitTime())).until(ExpectedConditions.presenceOfElementLocated(by));	
-			}else if (exConditions == ExplicitWaitExpextecConditions.NONE) {
+			}else if (exConditions == ExplicitWaitExpectedConditions.NONE) {
 				element = DriverManager.getDriver().findElement(by);
 			}
 			return element;

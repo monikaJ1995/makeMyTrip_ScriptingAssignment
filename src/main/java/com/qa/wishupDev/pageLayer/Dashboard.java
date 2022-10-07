@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.makeMyTrip.base.BasePage;
 import org.makeMyTrip.driver.DriverManager;
-import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
+import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.openqa.selenium.By;
 
 public class Dashboard extends BasePage {
@@ -19,7 +19,7 @@ public class Dashboard extends BasePage {
 	/*This method will click on Add a Task button*/
 	public String clickOnAddATask()
 	{
-		click(By_addATask,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_addATask,ExplicitWaitExpectedConditions.PRESENSCE);
 		log.info("Clicked on Add a task button");
 		return getURL();
 	}
@@ -28,7 +28,7 @@ public class Dashboard extends BasePage {
 	public WeeklyReportPage clickOnDashboard()
 	{
 		//Click on dashboard button
-		click(By_dashboard,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_dashboard,ExplicitWaitExpectedConditions.PRESENSCE);
 		return new WeeklyReportPage();
 	}
 
@@ -36,14 +36,14 @@ public class Dashboard extends BasePage {
 	public FeedbackPage clickOnFeedback()
 	{
 		//Click on Feedback 
-		click(By_feedback,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_feedback,ExplicitWaitExpectedConditions.PRESENSCE);
 		return new FeedbackPage();
 	}
 	/*This method will click on hire button & navigates to hire page*/
 	public HireResourcePage clickOnHire()
 	{
 		//Click on hire 
-		click(By_userName,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_userName,ExplicitWaitExpectedConditions.PRESENSCE);
 		return new HireResourcePage();
 	}
 
@@ -51,9 +51,9 @@ public class Dashboard extends BasePage {
 	public LoginPage clickOnLogout()
 	{
 		//Identify and click on username
-		click(By_hire,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_hire,ExplicitWaitExpectedConditions.PRESENSCE);
 		//Identify and click on logout
-		click(By_logoutButton,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_logoutButton,ExplicitWaitExpectedConditions.PRESENSCE);
 		return new LoginPage();
 	}
 }

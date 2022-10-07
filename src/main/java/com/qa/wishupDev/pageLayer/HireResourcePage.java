@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.makeMyTrip.base.BasePage;
 import org.makeMyTrip.driver.DriverManager;
-import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
+import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -26,7 +26,7 @@ public class HireResourcePage extends BasePage {
 	{
 		setCategoryDynamicXpath(category);
 		//Click on virtual assistant category
-		click(By_VA_Category,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_VA_Category,ExplicitWaitExpectedConditions.PRESENSCE);
 		return this;
 	}
 
@@ -54,7 +54,7 @@ public class HireResourcePage extends BasePage {
 	public ProfilePage viewResourceProfile(int Int_viewProfileIndex)
 	{
 		setProfileIndexDynamicXpath(Int_viewProfileIndex);
-		click(By_viewProfile,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_viewProfile,ExplicitWaitExpectedConditions.PRESENSCE);
 		return new ProfilePage();
 	}
 
@@ -62,7 +62,7 @@ public class HireResourcePage extends BasePage {
 	public CartPage goToCart()
 	{
 		//Click on cart option
-		click(By_cart,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_cart,ExplicitWaitExpectedConditions.PRESENSCE);
 		return new CartPage();
 	}
 	
@@ -71,7 +71,7 @@ public class HireResourcePage extends BasePage {
 	public Dashboard backToDashboard()
 	{
 		//Click on back to dashboard button
-		click(By_backToDashboard,ExplicitWaitExpextecConditions.PRESENSCE);
+		click(By_backToDashboard,ExplicitWaitExpectedConditions.PRESENSCE);
 		return new Dashboard();
 	}
 	

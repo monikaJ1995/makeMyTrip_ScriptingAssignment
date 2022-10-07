@@ -2,7 +2,7 @@ package com.qa.wishupDev.pageLayer;
 
 import org.makeMyTrip.base.BasePage;
 import org.makeMyTrip.driver.DriverManager;
-import org.makeMyTrip.enums.ExplicitWaitExpextecConditions;
+import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
@@ -26,7 +26,7 @@ public class ProfilePage extends BasePage {
 	public String getToolsForResource()
 	{
 		//click on tools expertise option
-		click(By_toolExp,ExplicitWaitExpextecConditions.CLICKABLE);
+		click(By_toolExp,ExplicitWaitExpectedConditions.CLICKABLE);
 
 		//Fetch tools available on resource profile
 		return getText(By_toolsNames);
@@ -42,7 +42,7 @@ public class ProfilePage extends BasePage {
 		String Str_techSkills = null;
 		try {
 			//Click on Tech skills option
-			click(By_techSkills,ExplicitWaitExpextecConditions.CLICKABLE);
+			click(By_techSkills,ExplicitWaitExpectedConditions.CLICKABLE);
 
 			//Get available top skills of resource displayed on screen
 			Str_techSkills = getText(By_topSkillNames);
@@ -77,7 +77,7 @@ public class ProfilePage extends BasePage {
 	/*This method will click on hire me button*/
 	public ProfilePage hireMe()
 	{
-		click(By_hireMeBtn,ExplicitWaitExpextecConditions.CLICKABLE);
+		click(By_hireMeBtn,ExplicitWaitExpectedConditions.CLICKABLE);
 		return this;
 	}
 
@@ -85,7 +85,7 @@ public class ProfilePage extends BasePage {
 	public ProfilePage selectPlanAndPricing()
 	{
 		//Click on toggle button for quarterly plan selection
-		click(By_PlanPricingToggle,ExplicitWaitExpextecConditions.CLICKABLE);
+		click(By_PlanPricingToggle,ExplicitWaitExpectedConditions.CLICKABLE);
 		return this;
 	}
 
@@ -93,7 +93,7 @@ public class ProfilePage extends BasePage {
 	public ProfilePage selectHalfDayPlan()
 	{
 		//Click on select this plan under half day section
-		click(By_selectThisPlan,ExplicitWaitExpextecConditions.CLICKABLE);
+		click(By_selectThisPlan,ExplicitWaitExpectedConditions.CLICKABLE);
 		return this;
 	}
 
@@ -102,7 +102,7 @@ public class ProfilePage extends BasePage {
 	public String goToCart()
 	{
 		//Click on go to cart
-		click(By_addedResourceGoToCart,ExplicitWaitExpextecConditions.CLICKABLE);
+		click(By_addedResourceGoToCart,ExplicitWaitExpectedConditions.CLICKABLE);
 		return getURL();
 	}
 }

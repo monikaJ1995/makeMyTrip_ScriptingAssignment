@@ -2,12 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" data-provider-thread-count="2">
 <listeners>
-	<listener class-name="org.ravi.listeners.ListenerClass"/>
+	<listener class-name="org.makeMyTrip.listeners.ListenerClass"/>
 </listeners>
   <test thread-count="1" name="Test">
     <classes>
-     <class name="com.qa.wishupDev.tests.AddATaskTest"/>
-      <!-- <class name="com.qa.wishupDev.tests.LoginPageTest"/>-->
+     <class name="org.makeMyTrip.tests.HotelsPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

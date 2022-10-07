@@ -1,10 +1,10 @@
 package org.makeMyTrip.enums;
 
-public enum ExplicitWaitExpextecConditions {
+public enum ExplicitWaitExpectedConditions {
 
 	CLICKABLE,
 	PRESENSCE,
-	VISIBILE,
+	VISIBLE,
 	NONE
 	
 }
