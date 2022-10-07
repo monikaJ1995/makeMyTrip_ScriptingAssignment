@@ -1,4 +1,4 @@
-package com.qa.wishupDev.tests;
+package org.makeMyTrip.testBase;
 
 import org.makeMyTrip.driver.Driver;
 import org.testng.annotations.AfterMethod;

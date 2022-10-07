@@ -31,7 +31,7 @@ public final class GenerateReport {
 		if(Objects.nonNull(extReport)) {
 			extReport.flush();
 		}
-		Desktop.getDesktop().browse(new File("index.html").toURI());
+		//Desktop.getDesktop().browse(new File("index.html").toURI());
 	}
 
 	public static void createTest(String testCaseName) {

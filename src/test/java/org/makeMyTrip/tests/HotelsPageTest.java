@@ -1,11 +1,11 @@
 package org.makeMyTrip.tests;
 
 import org.assertj.core.api.Assertions;
+import org.makeMyTrip.pageLayer.HotelsWebPage;
+import org.makeMyTrip.testBase.BaseTest;
+import org.makeMyTrip.utils.SystemDate;
 import org.openqa.selenium.support.Color;
 import org.testng.annotations.Test;
-
-import com.qa.wishupDev.pageLayer.HotelsWebPage;
-import com.qa.wishupDev.tests.BaseTest;
 
 public class HotelsPageTest extends BaseTest{
 	HotelsWebPage hotel;
@@ -14,11 +14,8 @@ public class HotelsPageTest extends BaseTest{
 	{
 /*-------Verify that hotels tab by default highlighted with specified color--------*/
 		hotel = new HotelsWebPage();
-		//RGB color of highlighted "Hotels" tab will get retrieved
-		String Str_hotelTabRGBColor = hotel.getHotelsTabBackgroundColor();
-		
-		//Conversion of RGB to Hex code 
-		String Str_hotelTabHexColor = Color.fromString(Str_hotelTabRGBColor).asHex();
+		//Color of highlighted "Hotels" tab will get retrieved
+		String Str_hotelTabHexColor = hotel.getHotelsTabBackgroundColor();
 		
 		//Verify that hotels tab gets highlighted with specified background color as per requirement
 		Assertions.assertThat(Str_hotelTabHexColor).isEqualTo("#008cff");
@@ -46,11 +43,18 @@ public class HotelsPageTest extends BaseTest{
 		//Verify user can enter text in the text box. 
 		String Str_retrivedText = hotel.enterCityInAutosuggestTextField("Dubai");
 		Assertions.assertThat(Str_retrivedText).isEqualToIgnoringCase("Dubai");
-		
+				
 		//Select city
 		hotel.selectDestinationCity("Deira, Dubai");
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 		
+		//Select checkin date
+		hotel.selectCheckInDate("October","21");
+		
+		//Select checkout date & get selected date block background color for validation
+		String Str_dateBlockBackgrounColor = hotel.selectCheckOutDate("January","21");
+		Assertions.assertThat(Str_dateBlockBackgrounColor).isEqualTo("#eaf5ff");
+		Thread.sleep(2500);
 		
 	}
 

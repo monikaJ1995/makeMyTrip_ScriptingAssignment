@@ -1,4 +1,4 @@
-package org.makeMyTrip.base;
+package org.makeMyTrip.pageBase;
 
 import org.makeMyTrip.driver.DriverManager;
 import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;

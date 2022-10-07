@@ -1,10 +1,9 @@
 package org.ravi.tests;
 
 import org.assertj.core.api.Assertions;
+import org.makeMyTrip.testBase.BaseTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import com.qa.wishupDev.tests.BaseTest;
 
 public class OrangeHRMTests extends BaseTest{
 
