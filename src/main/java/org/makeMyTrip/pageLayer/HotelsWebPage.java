@@ -141,7 +141,10 @@ public class HotelsWebPage extends BasePage{
 		return previousDateStatus;
 
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f4bc1168b1e2760eac4ae301933881d4ebe7a62
 
 	/*This method selects check out date as per user input &
 	 * check whether selected dates between checkin & checkout are highlighted with require color or not
@@ -151,6 +154,15 @@ public class HotelsWebPage extends BasePage{
 	public String selectCheckOutDate(String Str_month, String Str_checkoutDate) throws InterruptedException
 	{
 		log.debug("Iterating through the months of year");
+<<<<<<< HEAD
+=======
+
+	
+	public String selectCheckOutDate(String Str_month, String Str_checkoutDate) throws InterruptedException
+	{
+	
+
+>>>>>>> 0f4bc1168b1e2760eac4ae301933881d4ebe7a62
 		while(!driver.findElement(By_datePickerMonth).getText().contains(Str_month))
 		{
 			click(By_nextMonthNavButton, ExplicitWaitExpectedConditions.NONE);
