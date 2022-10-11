@@ -36,19 +36,19 @@ public class HotelDetailsWebPage extends BasePage {
 		{
 			room.click();
 			try {
-			if(getText(By_errorMsgRoomSoldOut).equals("Your dates are popular we’ve run out of rooms at this property!"))
-			{
-				System.out.println("Room is already booked, Select other one");
-			}
-			else
-			{
-				break;
-			}
+				if(getText(By_errorMsgRoomSoldOut).equals("Your dates are popular we’ve run out of rooms at this property!"))
+				{
+					System.out.println("Room is already booked, Select other one");
+				}
+				else
+				{
+					break;
+				}
 			}catch(NoSuchElementException e)
 			{
 				e.getMessage();
 			}
-			
+
 		}
 		return new HotelBookingPaymentWebPage();
 	}

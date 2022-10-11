@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 import org.makeMyTrip.enums.PropertyEnums;
 import org.makeMyTrip.utils.ReadProperties;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -35,6 +36,11 @@ public final class Driver {
 				log.debug("Initializing driver instance with firefoxdriver");
 				WebDriverManager.firefoxdriver().setup();
 				DriverManager.setDriver(new FirefoxDriver());
+			}
+			else if(browser.equalsIgnoreCase("edge"))
+			{
+				WebDriverManager.edgedriver().setup();
+				DriverManager.setDriver(new EdgeDriver());
 			}
 			DriverManager.getDriver().manage().window().maximize();
 			DriverManager.getDriver().get(ReadProperties.get(PropertyEnums.URL));
