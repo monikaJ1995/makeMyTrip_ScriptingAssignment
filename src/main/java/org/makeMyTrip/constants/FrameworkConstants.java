@@ -9,6 +9,7 @@ public final class FrameworkConstants {
 	private static String RESOURCESPATH = System.getProperty("user.dir")+"/src/test/resources";
 	private static String CHROMEDRIVERPATH = RESOURCESPATH+"/executables/chromedriver.exe";
 	private static String CONFIGFILEPATH = RESOURCESPATH+"/config/config.properties";
+	private static String EXCELFILEPATH = RESOURCESPATH+"/testData/testData.xlsx";
 	private static int EXPLIXITWAITTIME = 10;
 	
 	public static int getExplicitWaitTime() {
@@ -21,6 +22,10 @@ public final class FrameworkConstants {
 
 	public static String getChromrDriverPath() {
 		return CHROMEDRIVERPATH;
+	}
+	
+	public static String getTestDataFilePath() {
+		return EXCELFILEPATH;
 	}
 
 

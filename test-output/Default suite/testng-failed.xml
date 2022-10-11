@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.ravi.tests.LoginPageTest">
+      <class name="org.makeMyTrip.tests.HotelsPageTest">
         <methods>
+          <include name="successfulHotelBooking"/>
           <include name="setUp"/>
-          <include name="verifyLogin" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- org.ravi.tests.LoginPageTest -->
+      </class> <!-- org.makeMyTrip.tests.HotelsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

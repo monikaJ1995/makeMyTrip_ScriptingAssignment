@@ -1,0 +1,53 @@
+23:50:38.829 [main] DEBUG org.makeMyTrip.driver.Driver - CloseDriver: Driver instance is not null
+23:50:38.833 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+23:50:39.195 [main] DEBUG org.makeMyTrip.driver.Driver - Reading browser value from properties file
+23:50:39.196 [main] DEBUG org.makeMyTrip.driver.Driver - Browser property retrived is chrome
+23:50:39.196 [main] DEBUG org.makeMyTrip.driver.Driver - Driver instance is null
+23:50:39.196 [main] DEBUG org.makeMyTrip.driver.Driver - Initializing driver instance with chromedriver
+23:50:47.999 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+23:50:52.486 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+23:50:52.487 [main] DEBUG org.makeMyTrip.driver.Driver - CloseDriver: Driver instance is not null
+23:50:52.488 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+23:50:52.877 [main] DEBUG org.makeMyTrip.driver.Driver - Reading browser value from properties file
+23:50:52.878 [main] DEBUG org.makeMyTrip.driver.Driver - Browser property retrived is chrome
+23:50:52.878 [main] DEBUG org.makeMyTrip.driver.Driver - Driver instance is null
+23:50:52.878 [main] DEBUG org.makeMyTrip.driver.Driver - Initializing driver instance with chromedriver
+23:51:01.567 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+23:51:04.918 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+23:51:04.919 [main] DEBUG org.makeMyTrip.driver.Driver - CloseDriver: Driver instance is not null
+23:51:04.920 [AsyncHttpClient-1-13] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+00:07:13.653 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+00:07:13.993 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+00:07:14.400 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+00:07:17.227 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+00:08:01.458 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+00:08:05.121 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+00:08:16.582 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+00:08:24.260 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+00:09:01.035 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+00:09:04.381 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+02:11:29.398 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+02:11:29.509 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved hotels tab background color
+02:11:29.618 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved landing page title
+02:11:29.628 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved landing page url
+02:11:29.655 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+02:11:30.067 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+02:11:31.472 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+02:12:03.033 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+02:12:03.263 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+02:12:03.894 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+02:12:04.057 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+02:12:05.057 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+02:12:05.128 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+02:12:05.318 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Karad, Maharashtra, India
+02:12:05.393 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+02:12:06.067 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 15
+02:12:06.118 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+02:12:06.728 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+02:12:06.728 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 18
+02:12:06.839 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Apply button
+02:12:12.080 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Search button
+02:12:18.536 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+02:12:25.700 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+02:12:25.893 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+02:12:26.485 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen

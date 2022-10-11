@@ -40,19 +40,7 @@
     <version>5.2.2</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/log4j/log4j -->
 <dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
-<!--<dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-compress</artifactId>
-    <version>1.20</version>
-</dependency>-->
-<!--<dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-api</artifactId>
     <version>2.18.0</version>
@@ -61,22 +49,22 @@
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-core</artifactId>
     <version>2.18.0</version>
-  </dependency>-->
+  </dependency>
+  
   <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
-<dependency>
-    <groupId>org.assertj</groupId>
-    <artifactId>assertj-core</artifactId>
-    <version>3.23.1</version>
-    <scope>test</scope>
-</dependency>
-
-
+	<dependency>
+	    <groupId>org.assertj</groupId>
+	    <artifactId>assertj-core</artifactId>
+	    <version>3.23.1</version>
+	    <scope>test</scope>
+	</dependency>
+	
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.0.9</version>
-</dependency>
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>5.0.9</version>
+	</dependency>
 
 </dependencies>
 </project>
