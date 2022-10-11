@@ -1,8 +1,11 @@
-19:29:50.454 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
-19:29:51.090 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 15
-19:29:51.163 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
-19:29:51.916 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
-19:29:51.917 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 18
-19:29:52.068 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Apply button
-19:29:59.179 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Search button
-19:30:51.847 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:36:12.517 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+21:36:12.608 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+21:36:12.782 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Karad, Maharashtra, India
+21:36:12.872 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+21:36:13.488 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 15
+21:36:13.563 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+21:36:14.200 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+21:36:14.201 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 18
+21:36:14.359 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Apply button
+21:36:20.328 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Search button
+21:36:59.786 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver

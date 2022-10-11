@@ -1,0 +1,51 @@
+19:29:50.454 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+19:29:51.090 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 15
+19:29:51.163 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+19:29:51.916 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+19:29:51.917 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 18
+19:29:52.068 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Apply button
+19:29:59.179 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Search button
+19:30:51.847 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:33:14.610 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:33:14.956 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+21:33:14.956 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+21:33:15.119 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+21:33:15.488 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
+21:33:15.489 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+21:33:15.644 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+21:33:15.645 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+21:33:15.842 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+21:33:16.004 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
+21:33:16.009 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:33:28.987 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+21:33:30.399 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+21:34:26.127 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:34:26.411 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+21:34:29.640 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+21:34:29.843 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+21:34:30.856 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+21:34:30.952 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+21:34:31.613 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:34:39.573 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+21:34:40.704 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+21:34:50.412 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:34:50.752 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+21:34:51.400 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+21:34:51.600 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+21:34:52.602 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+21:34:52.696 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+21:34:52.936 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Karad, Maharashtra, India
+21:34:53.017 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+21:34:53.634 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 15
+21:34:53.697 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+21:34:54.426 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+21:34:54.426 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 18
+21:34:54.580 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Apply button
+21:34:59.414 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Search button
+21:35:38.536 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:35:55.013 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+21:35:56.135 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+21:36:09.928 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:36:10.184 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+21:36:11.318 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+21:36:11.512 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field

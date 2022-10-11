@@ -151,11 +151,6 @@ public class HotelsWebPage extends BasePage{
 	{
 		log.debug("Iterating through the months of year");
 
-	
-	public String selectCheckOutDate(String Str_month, String Str_checkoutDate) throws InterruptedException
-	{
-	
-
 		while(!driver.findElement(By_datePickerMonth).getText().contains(Str_month))
 		{
 			click(By_nextMonthNavButton, ExplicitWaitExpectedConditions.NONE);
