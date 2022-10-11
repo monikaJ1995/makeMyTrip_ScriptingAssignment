@@ -1,0 +1,53 @@
+19:21:49.753 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+19:21:49.768 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+19:21:49.968 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+19:21:50.172 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
+19:21:50.180 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+19:22:31.341 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+19:22:31.681 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+19:22:31.682 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+19:22:31.880 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+19:22:32.409 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
+19:22:32.409 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+19:22:32.617 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+19:22:32.617 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+19:22:32.806 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+19:22:33.012 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
+19:22:33.020 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+19:23:44.364 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+19:23:45.653 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+19:23:56.097 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+19:23:56.394 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+19:23:57.026 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+19:23:57.225 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+19:23:58.236 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+19:23:58.326 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+19:23:58.516 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Karad, Maharashtra, India
+19:23:58.592 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+19:23:59.252 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 15
+19:23:59.318 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+19:24:00.081 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+19:24:00.082 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 18
+19:24:00.230 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Apply button
+19:24:05.548 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Search button
+19:24:41.072 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+19:24:55.991 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+19:24:56.213 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+19:24:56.214 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+19:24:56.360 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+19:24:56.741 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
+19:24:56.742 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+19:24:56.876 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+19:24:56.877 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+19:24:57.067 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+19:24:57.206 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
+19:24:57.208 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+19:29:35.518 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+19:29:36.658 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+19:29:47.961 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+19:29:48.232 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+19:29:48.852 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+19:29:49.077 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+19:29:50.080 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+19:29:50.167 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+19:29:50.381 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Karad, Maharashtra, India

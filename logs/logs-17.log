@@ -1,0 +1,52 @@
+17:23:24.142 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+17:23:24.354 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
+17:23:26.369 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+17:27:52.738 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+17:27:52.793 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved hotels tab background color
+17:27:52.881 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved landing page title
+17:27:52.890 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved landing page url
+17:27:52.911 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+17:27:53.195 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+17:27:54.669 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+17:28:07.557 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+17:28:07.706 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+17:28:08.811 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+17:28:08.972 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+17:28:09.985 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+17:28:10.042 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+17:28:10.723 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+17:28:20.095 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+17:28:20.234 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+17:28:21.323 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+17:28:21.472 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+17:28:22.486 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+17:28:22.533 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+17:28:22.739 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
+17:28:22.818 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+17:28:23.330 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
+17:28:23.716 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+17:28:24.328 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+17:28:24.329 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
+17:28:26.844 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+17:28:35.806 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+17:28:35.989 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+17:28:35.990 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+17:28:36.014 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+17:28:36.389 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+17:28:36.505 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+17:28:36.505 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+17:28:36.632 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+17:28:36.761 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
+17:28:38.769 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+17:43:23.707 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+17:43:23.773 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved hotels tab background color
+17:43:23.954 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved landing page title
+17:43:23.962 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved landing page url
+17:43:23.982 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+17:43:24.237 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+17:43:25.869 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+17:43:34.160 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+17:43:34.381 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+17:43:34.973 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+17:43:35.120 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+17:43:36.133 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification

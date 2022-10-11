@@ -1,0 +1,8 @@
+19:29:50.454 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+19:29:51.090 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 15
+19:29:51.163 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+19:29:51.916 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+19:29:51.917 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 18
+19:29:52.068 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Apply button
+19:29:59.179 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Search button
+19:30:51.847 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
