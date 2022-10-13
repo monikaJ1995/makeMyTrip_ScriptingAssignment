@@ -60,11 +60,13 @@ public class HotelsPageTest extends BaseTest{
 
 		//Select checkout date & get selected date block background color for validation
 		String Str_dateBlockBackgrounColor = hotel.selectCheckOutDate("January","21");
+		System.out.println("bg color is : "+Str_dateBlockBackgrounColor);
 		Assertions.assertThat(Str_dateBlockBackgrounColor).isEqualTo("#eaf5ff");
 //		Thread.sleep(2500);
 
 
 	}
+	
 
 	@Test(priority=2, enabled=true)
 	public void validateRoomAndGuests() throws InterruptedException

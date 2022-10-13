@@ -1,31 +1,41 @@
-19:14:51.318 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
-19:14:51.469 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
-19:14:52.480 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
-19:14:52.546 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-19:14:52.824 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
-19:14:52.935 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
-19:14:53.583 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
-19:14:54.061 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
-19:14:54.707 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
-19:14:54.708 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
-19:14:54.713 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-19:15:14.315 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-19:15:14.573 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
-19:15:14.574 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
-19:15:14.617 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
-19:15:15.048 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
-19:15:15.049 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
-19:15:15.218 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
-19:15:15.218 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
-19:15:15.447 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
-19:15:15.708 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
-19:15:15.711 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-19:15:15.899 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
-19:15:17.113 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
-19:15:37.802 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-19:15:38.095 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
-19:15:39.213 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
-19:15:39.385 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
-19:15:40.398 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
-19:15:40.467 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-19:15:41.166 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+17:55:38.528 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
+17:55:38.550 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+18:02:25.260 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:02:25.596 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+18:02:26.732 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+18:02:27.118 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+18:02:28.126 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+18:02:28.214 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+18:02:28.540 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
+18:02:28.653 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+18:02:29.455 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
+18:02:30.054 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+18:02:31.143 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+18:02:31.144 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
+18:02:31.150 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+18:03:51.309 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:03:51.547 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+18:03:52.694 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+18:03:53.065 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+18:03:54.077 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+18:03:54.191 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+18:03:54.553 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
+18:03:54.672 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+18:03:55.540 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
+18:03:56.045 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+18:03:57.240 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+18:03:57.241 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
+18:03:57.248 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+18:30:03.887 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:30:04.140 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+18:30:05.817 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+18:30:06.242 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+18:30:07.250 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+18:30:07.352 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+18:30:07.669 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
+18:30:07.786 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+18:30:08.637 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
+18:30:09.350 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+18:30:10.101 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+18:30:10.103 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
+18:30:10.117 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver

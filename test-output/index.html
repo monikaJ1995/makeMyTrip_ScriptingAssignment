@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.makeMyTrip.tests.HotelsPageTest" class="method navigator-link" hash-for-method="hotelBooking({CheckOutMonth=October, CheckInMonth=October, Email=monika@wishu.co, CheckInDate=15, Select City Nam...)">hotelBooking({CheckOutMonth=October, CheckInMonth=October, Email=monika@wishu.co, CheckInDate=15, Select City Nam...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,16 +102,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.makeMyTrip.tests.HotelsPageTest" class="method navigator-link" hash-for-method="validateHotelsPageLanding">validateHotelsPageLanding</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.makeMyTrip.tests.HotelsPageTest" class="method navigator-link" hash-for-method="validateRoomAndGuests">validateRoomAndGuests</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="org.makeMyTrip.tests.HotelsPageTest" class="method navigator-link" hash-for-method="validateSelectHotelCity">validateSelectHotelCity</a> <!-- method navigator-link -->
@@ -143,67 +119,12 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">org.makeMyTrip.tests.HotelsPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="hotelBooking({CheckOutMonth=October, CheckInMonth=October, Email=monika@wishu.co, CheckInDate=15, Select City Nam...)">
-                  </a> <!-- hotelBooking({CheckOutMonth=October, CheckInMonth=October, Email=monika@wishu.co, CheckInDate=15, Select City Nam...) -->
-                  <span class="method-name">hotelBooking</span>
-                  <span class="parameters">({CheckOutMonth=October, CheckInMonth=October, Email=monika@wishu.co, CheckInDate=15, Select City Name=Karad, Maharashtra, India, FirstName=Monika, CityName=Karad, LastName=J, PAN=BMDPJ0846F, CheckOutDate=18, Contact=9865327564})</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.DayPicker-Month:nth-child(1)&quot;}
-  (Session info: chrome=106.0.5249.91)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;LAPTOP-P3PTTN41&apos;, ip: &apos;192.168.5.41&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d9d3bc2dbba709e37789514b5f987891, findElement {using=css selector, value=.DayPicker-Month:nth-child(1)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\91952\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60320/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d9d3bc2dbba709e37789514b5f987891
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.makeMyTrip.pageLayer.HotelsWebPage.selectCheckInDate(HotelsWebPage.java:126)
-	at org.makeMyTrip.tests.HotelsPageTest.hotelBooking(HotelsPageTest.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">org.makeMyTrip.tests.HotelsPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateHotelsPageLanding">
-                  </a> <!-- validateHotelsPageLanding -->
-                  <span class="method-name">validateHotelsPageLanding</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateRoomAndGuests">
-                  </a> <!-- validateRoomAndGuests -->
-                  <span class="method-name">validateRoomAndGuests</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="validateSelectHotelCity">
@@ -231,11 +152,11 @@ Session ID: d9d3bc2dbba709e37789514b5f987891
       &lt;class name=&quot;org.makeMyTrip.tests.HotelsPageTest&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;setUp&quot;/&gt;
-          &lt;include name=&quot;validateRoomAndGuests&quot;/&gt;
-          &lt;include name=&quot;hotelBooking&quot;/&gt;
-          &lt;include name=&quot;validateHotelsPageLanding&quot;/&gt;
           &lt;include name=&quot;validateSelectHotelCity&quot;/&gt;
           &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;exclude name=&quot;validateRoomAndGuests&quot;/&gt;
+          &lt;exclude name=&quot;hotelBooking&quot;/&gt;
+          &lt;exclude name=&quot;validateHotelsPageLanding&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- org.makeMyTrip.tests.HotelsPageTest --&gt;
     &lt;/classes&gt;
@@ -277,28 +198,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateSelectHotelCity')
 data.setCell(0, 2, 'org.makeMyTrip.tests.HotelsPageTest')
-data.setCell(0, 3, 4645);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'hotelBooking')
-data.setCell(1, 2, 'org.makeMyTrip.tests.HotelsPageTest')
-data.setCell(1, 3, 3005);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateRoomAndGuests')
-data.setCell(2, 2, 'org.makeMyTrip.tests.HotelsPageTest')
-data.setCell(2, 3, 1394);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateHotelsPageLanding')
-data.setCell(3, 2, 'org.makeMyTrip.tests.HotelsPageTest')
-data.setCell(3, 3, 211);
+data.setCell(0, 3, 6211);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -313,9 +222,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.makeMyTrip.tests.HotelsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateHotelsPageLanding</span>
+                <br/>
+                <span class="ignored-method-name">validateRoomAndGuests</span>
+                <br/>
+                <span class="ignored-method-name">hotelBooking</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -330,50 +250,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validateHotelsPageLanding</span>
-                <span class="method-start">123804 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">124023 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">124307 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">validateSelectHotelCity</span>
-                <span class="method-start">173799 ms</span>
+                <span class="method-start">24200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">178447 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">178691 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateRoomAndGuests</span>
-                <span class="method-start">198050 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">199445 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">200851 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">hotelBooking({CheckOutMonth=October, CheckInMonth=October, Email=monika@wishu.co, CheckInDate=15, Select City Nam...)</span>
-                <span class="method-start">221538 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">224901 ms</span>
+                <span class="method-start">30414 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

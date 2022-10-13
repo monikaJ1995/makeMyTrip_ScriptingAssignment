@@ -168,26 +168,15 @@ public class HotelsWebPage extends BasePage{
 		log.info("Selected month for checkout date");
 		List<WebElement> days = findElements(By_daysOfMonth);
 		log.debug("Retrived all days of selected month");
-		int daysCount = days.size();
-		int counter=0;
 		String Str_dateBackgroundColorRGB=null;
 		log.debug("Iterating through each day of selected month");
-		for(int i=0;i<daysCount;i++)
+		for(int i=0;i<days.size();i++)
 		{
 			if(days.get(i).getText().equals(Str_checkoutDate))
 			{
 				MouseActions.mouseHover(days.get(i));
-				List<WebElement> selectedDates = DriverManager.getDriver().findElements(By.xpath("//div[contains(@class,'DayPicker-Day--selected')]"));
-				for(int j=0;j<selectedDates.size();i++)
-				{
-					String selectionStatus = selectedDates.get(j).getAttribute("aria-selected");
-					if(selectionStatus.equals("true"))
-					{
-						counter++;
-					}
-				}
-//				Str_dateBackgroundColorRGB = days.get(i).getCssValue("background-color");
-//				log.debug("Retrieved selected date cell background color");
+				Str_dateBackgroundColorRGB = days.get(i).getCssValue("background-color");
+				log.debug("Retrieved selected date cell background color");
 				days.get(i).click();
 				log.info("Selected checkout date");
 				break;
@@ -198,7 +187,6 @@ public class HotelsWebPage extends BasePage{
 		return Color.fromString(Str_dateBackgroundColorRGB).asHex();
 	}
 
-	public void 
 
 	/*This is for routine trial*/
 	public HotelsWebPage clickRoomGuests()

@@ -8,9 +8,9 @@
     <classes>
       <class name="org.makeMyTrip.tests.HotelsPageTest">
         <methods>
-          <include name="hotelBooking" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="validateSelectHotelCity"/>
         </methods>
       </class> <!-- org.makeMyTrip.tests.HotelsPageTest -->
     </classes>

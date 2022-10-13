@@ -1,134 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-12T19:11:56 IST" name="Suite" finished-at="2022-10-12T19:15:41 IST" duration-ms="225122">
+  <suite started-at="2022-10-13T18:29:39 IST" name="Suite" finished-at="2022-10-13T18:30:10 IST" duration-ms="30874">
     <groups>
     </groups>
-    <test started-at="2022-10-12T19:11:56 IST" name="Test" finished-at="2022-10-12T19:15:41 IST" duration-ms="225122">
+    <test started-at="2022-10-13T18:29:39 IST" name="Test" finished-at="2022-10-13T18:30:10 IST" duration-ms="30874">
       <class name="org.makeMyTrip.tests.HotelsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:11:56 IST" name="setUp" finished-at="2022-10-12T19:14:00 IST" duration-ms="123803" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-13T18:29:39 IST" name="setUp" finished-at="2022-10-13T18:30:03 IST" duration-ms="24199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateHotelsPageLanding()[pri:-1, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:14:00 IST" name="validateHotelsPageLanding" finished-at="2022-10-12T19:14:00 IST" duration-ms="211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHotelsPageLanding -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:14:00 IST" name="tearDown" finished-at="2022-10-12T19:14:00 IST" duration-ms="282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:14:00 IST" name="setUp" finished-at="2022-10-12T19:14:50 IST" duration-ms="49492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateSelectHotelCity()[pri:1, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:14:50 IST" name="validateSelectHotelCity" finished-at="2022-10-12T19:14:54 IST" duration-ms="4645" status="PASS">
+        <test-method signature="validateSelectHotelCity()[pri:1, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-13T18:30:03 IST" name="validateSelectHotelCity" finished-at="2022-10-13T18:30:10 IST" duration-ms="6211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSelectHotelCity -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:14:54 IST" name="tearDown" finished-at="2022-10-12T19:14:54 IST" duration-ms="244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:14:54 IST" name="setUp" finished-at="2022-10-12T19:15:14 IST" duration-ms="19359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateRoomAndGuests()[pri:2, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:15:14 IST" name="validateRoomAndGuests" finished-at="2022-10-12T19:15:15 IST" duration-ms="1394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateRoomAndGuests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:15:15 IST" name="tearDown" finished-at="2022-10-12T19:15:15 IST" duration-ms="180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:15:17 IST" name="setUp" finished-at="2022-10-12T19:15:37 IST" duration-ms="20687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="hotelBooking(java.util.Map)[pri:3, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:15:37 IST" name="hotelBooking" data-provider="testData" finished-at="2022-10-12T19:15:40 IST" duration-ms="3005" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{CheckOutMonth=October, CheckInMonth=October, Email=monika@wishu.co, CheckInDate=15, Select City Name=Karad, Maharashtra, India, FirstName=Monika, CityName=Karad, LastName=J, PAN=BMDPJ0846F, CheckOutDate=18, Contact=9865327564}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker-Month:nth-child(1)"}
-  (Session info: chrome=106.0.5249.91)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-P3PTTN41', ip: '192.168.5.41', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d9d3bc2dbba709e37789514b5f987891, findElement {using=css selector, value=.DayPicker-Month:nth-child(1)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\91952\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60320/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d9d3bc2dbba709e37789514b5f987891]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker-Month:nth-child(1)"}
-  (Session info: chrome=106.0.5249.91)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-P3PTTN41', ip: '192.168.5.41', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d9d3bc2dbba709e37789514b5f987891, findElement {using=css selector, value=.DayPicker-Month:nth-child(1)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\91952\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60320/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d9d3bc2dbba709e37789514b5f987891
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.makeMyTrip.pageLayer.HotelsWebPage.selectCheckInDate(HotelsWebPage.java:126)
-at org.makeMyTrip.tests.HotelsPageTest.hotelBooking(HotelsPageTest.java:100)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hotelBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-12T19:15:41 IST" name="tearDown" finished-at="2022-10-12T19:15:41 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.makeMyTrip.tests.HotelsPageTest@3c7f66c4]" started-at="2022-10-13T18:30:10 IST" name="tearDown" finished-at="2022-10-13T18:30:10 IST" duration-ms="431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
