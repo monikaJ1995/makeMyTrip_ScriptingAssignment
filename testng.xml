@@ -8,10 +8,12 @@
     <classes>
      <class name="org.makeMyTrip.tests.HotelsPageTest">
      <methods>
-         <include name="tearDown"/>
-          <exclude name="validateRoomAndGuests"/>
+         <include name="setUp"/>
+          <include name="validateRoomAndGuests"/>
           <include name="hotelBooking"/>
-           <include name="setUp"/>
+          <include name="validateHotelsPageLanding"/>
+          <include name="validateSelectHotelCity"/>
+          <include name="tearDown"/> 
         </methods>
         </class>
     </classes>

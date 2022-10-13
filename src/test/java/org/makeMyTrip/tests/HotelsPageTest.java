@@ -8,8 +8,8 @@ import org.makeMyTrip.pageLayer.HotelDetailsWebPage;
 import org.makeMyTrip.pageLayer.HotelsSearchResultsWebPage;
 import org.makeMyTrip.pageLayer.HotelsWebPage;
 import org.makeMyTrip.testBase.BaseTest;
-import org.makeMyTrip.utils.SystemDate;
-import org.openqa.selenium.support.Color;
+//import org.makeMyTrip.utils.SystemDate;
+//import org.openqa.selenium.support.Color;
 import org.testng.annotations.Test;
 
 public class HotelsPageTest extends BaseTest{
@@ -36,7 +36,7 @@ public class HotelsPageTest extends BaseTest{
 	}
 
 	@Test(priority=1,enabled=true)
-	public void validateSelectHotelCity() throws InterruptedException
+	public void validateSelectHotelCity() 
 	{
 //		hotel = new HotelsWebPage();
 		//Verify autocomplete dropdown displayed on screen
@@ -53,12 +53,10 @@ public class HotelsPageTest extends BaseTest{
 
 		//Select checkin date
 		System.out.println("checkin");
-		boolean previousDateStatus = hotel.selectCheckInDate("October","21");
-		System.out.println(previousDateStatus);
-
-		//**********verify previous date field is disabled*****but showa enabled as status
-		Assertions.assertThat(previousDateStatus).isTrue();
-		System.out.println("previous date is disabled");
+		String previousDateStatus = hotel.selectCheckInDate("October","21");
+		
+		//**********verify previous date field is disabled*****
+		Assertions.assertThat(previousDateStatus).isEqualTo("false");
 
 		//Select checkout date & get selected date block background color for validation
 		String Str_dateBlockBackgrounColor = hotel.selectCheckOutDate("January","21");
@@ -90,7 +88,7 @@ public class HotelsPageTest extends BaseTest{
 //		Thread.sleep(2000);
 	}
 	
-	@Test(enabled=true,dataProviderClass= org.makeMyTrip.dataprovider.DataProviderUtil.class, dataProvider="testData")
+	@Test(priority=3,dataProviderClass= org.makeMyTrip.dataprovider.DataProviderUtil.class, dataProvider="testData")
 	public void hotelBooking(Map<String, String> map) throws InterruptedException
 	{
 		

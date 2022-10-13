@@ -1,51 +1,49 @@
-17:43:36.194 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-17:43:36.363 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Karad, Maharashtra, India
-17:43:36.420 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
-17:43:36.862 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 15
-17:43:36.957 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
-17:43:37.510 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
-17:43:37.510 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 18
-17:43:37.621 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Apply button
-17:43:44.875 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on Search button
-17:44:22.140 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-17:44:29.835 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-17:44:29.979 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
-17:44:31.063 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
-17:44:31.206 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
-17:44:32.213 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
-17:44:32.257 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-17:44:32.503 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
-17:44:32.607 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
-17:44:33.080 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
-17:44:33.475 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
-17:44:33.994 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-17:45:15.384 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-17:45:15.565 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
-17:45:15.565 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
-17:45:15.584 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
-17:45:15.905 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
-17:45:15.905 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
-17:45:16.010 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
-17:45:16.010 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
-17:45:16.124 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
-17:45:16.249 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
-17:45:18.255 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-18:38:24.511 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
-18:38:25.752 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
-18:38:38.796 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-18:38:39.051 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
-18:38:40.173 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
-18:38:40.307 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
-18:38:41.315 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
-18:38:41.372 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-18:38:42.047 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-18:39:02.676 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
-18:39:03.712 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
-18:39:28.551 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-18:39:28.748 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
-18:39:29.892 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
-18:39:30.039 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
-18:39:31.054 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
-18:39:31.114 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-18:39:31.763 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-18:39:50.984 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+18:43:24.012 [main] INFO  org.makeMyTrip.pageLayer.HotelsSearchResultsWebPage - Room is already booked, Select other one
+18:43:24.145 [main] INFO  org.makeMyTrip.pageLayer.HotelsSearchResultsWebPage - Scroll down to enter user details
+18:43:55.181 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+18:44:08.424 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:44:08.663 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+18:44:09.755 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+18:44:10.078 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+18:44:11.079 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+18:44:11.366 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+18:44:11.753 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
+18:44:11.872 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
+18:44:12.451 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
+18:44:13.068 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+18:44:13.683 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+18:45:04.936 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+18:45:06.067 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+18:46:09.139 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:46:09.293 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+18:46:10.915 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+18:46:11.059 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+18:46:12.074 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+18:46:12.332 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+18:46:13.002 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+18:47:00.508 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:47:00.655 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+18:47:03.811 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+18:47:04.090 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+18:47:05.094 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+18:47:05.300 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+18:47:05.760 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+18:48:31.989 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+18:48:33.027 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+18:48:58.646 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:48:58.854 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+18:48:59.947 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+18:49:00.091 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+18:49:01.093 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+18:49:01.145 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+18:49:01.730 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+18:49:05.954 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:49:13.337 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Opened Excel test Data file
+18:49:14.362 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
+18:49:44.204 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+18:49:44.370 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+18:49:45.480 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+18:49:45.601 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+18:49:46.607 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+18:49:46.666 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+18:49:46.809 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Karad, Maharashtra, India

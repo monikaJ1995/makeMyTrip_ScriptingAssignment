@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class MouseActions {
 	
-	static Actions action = new Actions(DriverManager.getDriver());;	
+	static Actions action = new Actions(DriverManager.getDriver());	
 	public static void mouseHover(WebElement element)
 	{
 		action.moveToElement(element).build().perform();

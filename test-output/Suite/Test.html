@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 11 21:35:54 IST 2022</td>
+<td>Started on:</td><td>Wed Oct 12 19:11:56 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>66 seconds (66093 ms)</td>
+<tr><td>Total time:</td><td>225 seconds (225122 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='org.makeMyTrip.tests.HotelsPageTest.hotelBooking()'><b>hotelBooking</b><br>Test class: org.makeMyTrip.tests.HotelsPageTest<br>Parameters: {CheckOutMonth=October, CheckInMonth=October, Email=monika@wishu.co, CheckInDate=15, Select City Name=Karad, Maharashtra, India, FirstName=Monika, CityName=Karad, LastName=J, PAN=BMDPJ0846F, CheckOutDate=18, Contact=9865327564}</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fName&quot;}
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.DayPicker-Month:nth-child(1)&quot;}
   (Session info: chrome=106.0.5249.91)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;LAPTOP-P3PTTN41&apos;, ip: &apos;192.168.153.41&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+System info: host: &apos;LAPTOP-P3PTTN41&apos;, ip: &apos;192.168.5.41&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56938a4a3146a10f1fe6358fcf96f2ce, findElement {using=id, value=fName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\91952\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52271/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 56938a4a3146a10f1fe6358fcf96f2ce
+Command: [d9d3bc2dbba709e37789514b5f987891, findElement {using=css selector, value=.DayPicker-Month:nth-child(1)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\91952\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60320/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9d3bc2dbba709e37789514b5f987891
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -96,21 +96,19 @@ Session ID: 56938a4a3146a10f1fe6358fcf96f2ce
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.makeMyTrip.generics.ExplicitWaitConditions.performExplicitWait(ExplicitWaitConditions.java:32)
-	at org.makeMyTrip.pageBase.BasePage.enterText(BasePage.java:27)
-	at org.makeMyTrip.pageLayer.HotelBookingPaymentWebPage.enterFirstName(HotelBookingPaymentWebPage.java:45)
-	at org.makeMyTrip.tests.HotelsPageTest.hotelBooking(HotelsPageTest.java:112)
+	at org.makeMyTrip.pageLayer.HotelsWebPage.selectCheckInDate(HotelsWebPage.java:126)
+	at org.makeMyTrip.tests.HotelsPageTest.hotelBooking(HotelsPageTest.java:100)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1671214984", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1671214984'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fName&quot;}
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2128686424", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2128686424'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.DayPicker-Month:nth-child(1)&quot;}
   (Session info: chrome=106.0.5249.91)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;LAPTOP-P3PTTN41&apos;, ip: &apos;192.168.153.41&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+System info: host: &apos;LAPTOP-P3PTTN41&apos;, ip: &apos;192.168.5.41&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56938a4a3146a10f1fe6358fcf96f2ce, findElement {using=id, value=fName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\91952\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52271/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 56938a4a3146a10f1fe6358fcf96f2ce
+Command: [d9d3bc2dbba709e37789514b5f987891, findElement {using=css selector, value=.DayPicker-Month:nth-child(1)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\91952\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60320/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9d3bc2dbba709e37789514b5f987891
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -126,10 +124,8 @@ Session ID: 56938a4a3146a10f1fe6358fcf96f2ce
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.makeMyTrip.generics.ExplicitWaitConditions.performExplicitWait(ExplicitWaitConditions.java:32)
-	at org.makeMyTrip.pageBase.BasePage.enterText(BasePage.java:27)
-	at org.makeMyTrip.pageLayer.HotelBookingPaymentWebPage.enterFirstName(HotelBookingPaymentWebPage.java:45)
-	at org.makeMyTrip.tests.HotelsPageTest.hotelBooking(HotelsPageTest.java:112)
+	at org.makeMyTrip.pageLayer.HotelsWebPage.selectCheckInDate(HotelsWebPage.java:126)
+	at org.makeMyTrip.tests.HotelsPageTest.hotelBooking(HotelsPageTest.java:100)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,7 +155,30 @@ Session ID: 56938a4a3146a10f1fe6358fcf96f2ce
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>49</td>
+<td>3</td>
+<td>org.makeMyTrip.tests.HotelsPageTest@3c7f66c4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.makeMyTrip.tests.HotelsPageTest.validateHotelsPageLanding()'><b>validateHotelsPageLanding</b><br>Test class: org.makeMyTrip.tests.HotelsPageTest</td>
+<td></td>
+<td>0</td>
+<td>org.makeMyTrip.tests.HotelsPageTest@3c7f66c4</td></tr>
+<tr>
+<td title='org.makeMyTrip.tests.HotelsPageTest.validateRoomAndGuests()'><b>validateRoomAndGuests</b><br>Test class: org.makeMyTrip.tests.HotelsPageTest</td>
+<td></td>
+<td>1</td>
+<td>org.makeMyTrip.tests.HotelsPageTest@3c7f66c4</td></tr>
+<tr>
+<td title='org.makeMyTrip.tests.HotelsPageTest.validateSelectHotelCity()'><b>validateSelectHotelCity</b><br>Test class: org.makeMyTrip.tests.HotelsPageTest</td>
+<td></td>
+<td>4</td>
 <td>org.makeMyTrip.tests.HotelsPageTest@3c7f66c4</td></tr>
 </table><p>
 </body>

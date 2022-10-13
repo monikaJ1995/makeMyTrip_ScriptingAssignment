@@ -1,6 +1,7 @@
 package org.makeMyTrip.generics;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.makeMyTrip.constants.FrameworkConstants;
 import org.makeMyTrip.driver.DriverManager;
@@ -32,6 +33,20 @@ public class ExplicitWaitConditions {
 				element = DriverManager.getDriver().findElement(by);
 			}
 			return element;
+		}
+		
+public static List<WebElement> performExplicitWaitToFindElements(By by, ExplicitWaitExpectedConditions exConditions) {
+			
+		List<WebElement> elements=null;
+			
+			if(exConditions == ExplicitWaitExpectedConditions.VISIBLE)		{
+				elements = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.getExplicitWaitTime())).until(ExpectedConditions.visibilityOfAllElementsLocatedBy(by));			
+			}else if (exConditions == ExplicitWaitExpectedConditions.PRESENSCE) {
+				elements = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.getExplicitWaitTime())).until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));	
+			}else if (exConditions == ExplicitWaitExpectedConditions.NONE) {
+				elements = DriverManager.getDriver().findElements(by);
+			}
+			return elements;
 		}
 
 }

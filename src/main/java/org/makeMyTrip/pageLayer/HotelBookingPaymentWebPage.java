@@ -2,6 +2,8 @@ package org.makeMyTrip.pageLayer;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.makeMyTrip.driver.DriverManager;
 import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.makeMyTrip.generics.MouseActions;
@@ -9,7 +11,7 @@ import org.makeMyTrip.pageBase.BasePage;
 import org.openqa.selenium.By;
 
 public class HotelBookingPaymentWebPage extends BasePage{
-
+	Logger log = LogManager.getLogger(HotelsSearchResultsWebPage.class);
 	private By By_guestTitleDrpDwn = By.cssSelector("#title");
 	private By By_firstName = By.id("fName");
 	private By By_lastName = By.id("lName");
@@ -31,6 +33,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage selectGuestTitle()
 	{
 		click(By_guestTitleDrpDwn, ExplicitWaitExpectedConditions.NONE);
+		log.info("");
 		return this;
 				
 	}
@@ -40,9 +43,11 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	 * return: Instance of class*/
 	public HotelBookingPaymentWebPage enterFirstName(String Str_firstName)
 	{
-		DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		MouseActions.pageDown();
+		log.info("Scroll down to enter user details");
 		enterText(By_firstName, Str_firstName, ExplicitWaitExpectedConditions.NONE);
+		log.info(Str_firstName +" entered in text field");
 		return this;
 	}
 	
@@ -52,6 +57,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage enterLastName(String Str_lastName)
 	{
 		enterText(By_lastName,Str_lastName, ExplicitWaitExpectedConditions.NONE);
+		log.info(Str_lastName +" entered in text field");
 		return this;
 	}
 	
@@ -61,6 +67,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage enterEmailAddress(String Str_email)
 	{
 		enterText(By_emailAddress,Str_email, ExplicitWaitExpectedConditions.NONE);
+		log.info(Str_email +" entered in text field");
 		return this;
 	}
 	
@@ -70,6 +77,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage enterContactNumber(String Str_contactNumber)
 	{
 		enterText(By_contactNumber,Str_contactNumber, ExplicitWaitExpectedConditions.NONE);
+		log.info(Str_contactNumber +" entered in text field");
 		return this;
 	}
 	
@@ -78,6 +86,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage clickOnPayNow()
 	{
 		click(By_payNowBtn,ExplicitWaitExpectedConditions.NONE);
+		log.info("Clicked on pay now button");
 		return this;
 	}
 	
@@ -87,6 +96,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage enterPANCardNumber(String Str_PANNumber)
 	{
 		enterText(By_PANCardNumber,Str_PANNumber,ExplicitWaitExpectedConditions.NONE);
+		log.info(Str_PANNumber +" entered in text field");
 		MouseActions.simulateTAB();
 		return this;
 	}
@@ -96,6 +106,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage clickOnConfirmBtn()
 	{
 		click(By_confirmPANBtn,ExplicitWaitExpectedConditions.CLICKABLE);
+		log.info("Clicked on confirm button");
 		return this;
 	}
 	
@@ -104,6 +115,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage selectPaymentMode()
 	{
 		click(By_upiPayMode,ExplicitWaitExpectedConditions.NONE);
+		log.info("Selected payment mode");
 		return this;
 	}
 	
@@ -113,6 +125,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage enterUPIId(String Str_UPIId)
 	{
 		enterText(By_upiId,Str_UPIId, ExplicitWaitExpectedConditions.NONE);
+		log.info(Str_UPIId +" entered in text field");
 		return this;
 	}
 	
@@ -121,6 +134,7 @@ public class HotelBookingPaymentWebPage extends BasePage{
 	public HotelBookingPaymentWebPage clickOnVerifyAndPayBtn()
 	{
 		click(By_verifyAndPayBtn,ExplicitWaitExpectedConditions.NONE);
+		log.info("Clicked on verify & pay button");
 		return this;
 	}
 	
