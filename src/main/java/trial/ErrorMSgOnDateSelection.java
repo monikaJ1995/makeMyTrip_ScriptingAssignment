@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class ErrorMSgOnDateSelection {
+	
 	public String selectCheckOutDate(String Str_month, String Str_checkoutDate)
 	{
 		log.debug("Iterating through the months of year");
@@ -50,18 +51,13 @@ public class ErrorMSgOnDateSelection {
 						}
 					}
 				}
-//				Str_dateBackgroundColorRGB = days.get(i).getCssValue("background-color");
-//				log.debug("Retrieved selected date cell background color");
+
 				days.get(i).click();
 				log.info("Selected checkout date");
 				System.out.println("Counter: "+counter);
 				break;
 			}
 		}
-		
-		
-		log.info("Selcted check in month as "+Str_month+" & check in date as "+Str_checkoutDate);
-//		return Color.fromString(Str_dateBackgroundColorRGB).asHex();
 		return Demo;
 	}
 

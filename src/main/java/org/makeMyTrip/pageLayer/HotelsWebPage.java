@@ -9,10 +9,12 @@ import org.makeMyTrip.enums.ExplicitWaitExpectedConditions;
 import org.makeMyTrip.generics.ExplicitWaitConditions;
 import org.makeMyTrip.generics.MouseActions;
 import org.makeMyTrip.pageBase.BasePage;
+import org.makeMyTrip.utils.SystemDate;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.Color;
+import org.openqa.selenium.support.ui.Select;
 
 public class HotelsWebPage extends BasePage{
 	Logger log = LogManager.getLogger(HotelsWebPage.class);
@@ -31,8 +33,12 @@ public class HotelsWebPage extends BasePage{
 	private By By_removeRoomBtn/* = By.xpath("(//a[text()='Remove'])")*/;
 	private By By_editRoomDetailsBtn/* = By.xpath("(//a[text()='Remove'])")*/;
 	private By By_childrenCounter = By.xpath("(//li[contains(@data-cy,'children')])");
+	private By By_childAgeDrpdwn = By.cssSelector(".ageSelectBox");
 	private By By_submitGuestsBtn = By.cssSelector(".btnApply");
+	private By By_pricePerNightCharge = By.cssSelector(".prpTypeSel__list--item");
 	private By By_searchBtn = By.id("hsw_search_button");
+	
+
 	//	
 
 	/*This method returns default background color of 
@@ -120,21 +126,13 @@ public class HotelsWebPage extends BasePage{
 	 * input : String monthName(eg: "October")
 	 * 			String checkinDate(eg: "21")
 	 * return :  status of date lower than selected checkin date(enabled/disabled)*/
-	public String selectCheckInDate(String Str_month,String Str_checkinDate)
+	public String selectCheckInDate(String Str_checkinMonth,String Str_checkinDate)
 	{
-		log.debug("For checkin iterating through the months of year");
-		while(!driver.findElement(By_datePickerMonth).getText().contains(Str_month))
-		{
-			click(By_nextMonthNavButton, ExplicitWaitExpectedConditions.NONE);
-			log.debug("Clicked on next month navigation button");
-		}
-		log.info("Selected checkin month for checkin date");
-		List<WebElement> days = findElements(By_daysOfMonth);
+		List<WebElement> days = SystemDate.getDaysOfRequiredMonth(By_datePickerMonth, By_nextMonthNavButton, By_daysOfMonth, Str_checkinMonth);
 		log.debug("Retrived all days of selected month");
-		int daysCount = days.size();
 		String previousDateStatus = null;
 		log.debug("Iterating through each day of selected month");
-		for(int i=0;i<daysCount;i++)
+		for(int i=0;i<days.size();i++)
 		{
 			if(days.get(i).getText().equals(Str_checkinDate))
 			{
@@ -146,7 +144,7 @@ public class HotelsWebPage extends BasePage{
 				break;
 			}
 		}
-		log.info("Selcted check in month as "+Str_month+" & check in date as "+Str_checkinDate);
+		log.info("Selcted check in month as "+Str_checkinMonth+" & check in date as "+Str_checkinDate);
 		return previousDateStatus;
 
 	}
@@ -157,16 +155,9 @@ public class HotelsWebPage extends BasePage{
 	 * input : String monthName(eg: "October")
 	 * 			String checkinDate(eg: "21")
 	 * return :  String hex color code of selected date cells in date picker*/
-	public String selectCheckOutDate(String Str_month, String Str_checkoutDate)
+	public String selectCheckOutDate(String Str_checkoutMonth, String Str_checkoutDate)
 	{
-		log.debug("Iterating through the months of year");
-		while(!driver.findElement(By_datePickerMonth).getText().contains(Str_month))
-		{
-			click(By_nextMonthNavButton, ExplicitWaitExpectedConditions.NONE);
-			log.debug("Clicked on next month navigation button");
-		}
-		log.info("Selected month for checkout date");
-		List<WebElement> days = findElements(By_daysOfMonth);
+		List<WebElement> days = SystemDate.getDaysOfRequiredMonth(By_datePickerMonth, By_nextMonthNavButton, By_daysOfMonth, Str_checkoutMonth);
 		log.debug("Retrived all days of selected month");
 		String Str_dateBackgroundColorRGB=null;
 		log.debug("Iterating through each day of selected month");
@@ -183,7 +174,7 @@ public class HotelsWebPage extends BasePage{
 			}
 		}
 		
-		log.info("Selcted check in month as "+Str_month+" & check in date as "+Str_checkoutDate);
+		log.info("Selcted check out month as "+Str_checkoutMonth+" & check out date as "+Str_checkoutDate);
 		return Color.fromString(Str_dateBackgroundColorRGB).asHex();
 	}
 
@@ -261,6 +252,20 @@ public class HotelsWebPage extends BasePage{
 		log.info("Selected children count as "+Int_childCount);
 		return this;
 	}
+	
+	public HotelsWebPage selectChildAge(String Str_childAge)
+	{
+		System.out.println("1");
+		click(By_childAgeDrpdwn, ExplicitWaitExpectedConditions.VISIBLE);
+		System.out.println("clicked");
+		WebElement WE_childAgeDrpdwn = findElement(By_childAgeDrpdwn);
+		System.out.println("3");
+		Select select = new Select(WE_childAgeDrpdwn);
+		select.selectByValue(Str_childAge);
+		System.out.println("done");
+		return this;
+	}
+	
 
 	/*This method is to click on apply button once the details are added in Rooms & Guests filter
 	 * return: instnace of class*/
@@ -270,6 +275,46 @@ public class HotelsWebPage extends BasePage{
 		log.info("Clicked on Apply button");
 		return this;
 	}
+	
+	/*This method will select price per night radio button for given input range
+	 * input: String price range(eg: 1500-)
+	 * return: Instance of class*/
+	public HotelsWebPage selectPricePerNightCharge(String Str_priceRange) throws InterruptedException
+	{
+		List<WebElement> radioButtons = findElements(By_pricePerNightCharge);
+		for(WebElement radioButton: radioButtons)
+		{
+			if(radioButton.getText().contains(Str_priceRange))
+			{
+				radioButton.click();
+				break;
+			}
+		}
+		log.info("Clicked & selected radio button with required price range");
+		return this;
+	}
+	
+	/*This method will click on all radio buttons under Price per night field
+	 * sequentially one by one
+	 * return: boolean Status of previous button(isSelected)*/
+	public boolean selectMultiplePricePerNightCharge()
+	{
+		List<WebElement> radioButtons = findElements(By_pricePerNightCharge);
+		boolean pervButtonStatus= true;
+		for(int i=0; i<radioButtons.size();i++)
+		{
+			radioButtons.get(i).click();
+			if(i>0)
+			{
+			pervButtonStatus = radioButtons.get(i-1).isSelected();
+			}
+		}
+		log.info("Clicked on all radio buttons under price per night field sequentially");
+		return pervButtonStatus;
+	}
+	
+	/*This method will click on search button 
+	 * return: Instance of HotelsSearchResultsWebPage class*/
 	public HotelsSearchResultsWebPage clickOnSearchButton()
 	{
 		click(By_searchBtn, ExplicitWaitExpectedConditions.NONE);

@@ -5,10 +5,10 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 import org.makeMyTrip.driver.DriverManager;
-import org.makeMyTrip.generics.Screenshot;
 import org.makeMyTrip.reports.ExtentLogger;
 import org.makeMyTrip.reports.GenerateReport;
 import org.makeMyTrip.reports.ReportManager;
+import org.makeMyTrip.utils.Screenshot;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ISuite;

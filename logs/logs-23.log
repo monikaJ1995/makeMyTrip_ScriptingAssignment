@@ -1,40 +1,58 @@
-23:49:17.602 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.607 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.608 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.633 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.635 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.635 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.660 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.660 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.661 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.686 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.688 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.689 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.708 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.709 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.710 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.728 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.729 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.730 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.754 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.756 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.756 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.775 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.775 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.776 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.793 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.794 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.795 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.815 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.817 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.818 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.833 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-23:49:17.834 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-23:49:17.835 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-23:49:17.845 [main] INFO  org.makeMyTrip.dataprovider.DataProviderUtil - Test data is fetched from file
-23:49:17.849 [main] DEBUG org.makeMyTrip.driver.Driver - Reading browser value from properties file
-23:49:17.849 [main] DEBUG org.makeMyTrip.driver.Driver - Browser property retrived is chrome
-23:49:17.850 [main] DEBUG org.makeMyTrip.driver.Driver - Driver instance is null
-23:49:17.850 [main] DEBUG org.makeMyTrip.driver.Driver - Initializing driver instance with chromedriver
-23:49:25.338 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-23:50:38.828 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+19:30:15.774 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
+19:30:16.269 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
+19:30:16.932 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+19:30:16.932 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
+19:30:16.948 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+19:34:42.814 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+19:34:43.065 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
+19:34:43.662 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
+19:34:43.963 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
+19:34:44.966 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
+19:34:45.041 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
+19:34:45.300 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
+19:34:45.367 [main] INFO  org.makeMyTrip.utils.SystemDate - Selected checkin month for checkin date
+19:34:45.932 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
+19:34:46.340 [main] INFO  org.makeMyTrip.utils.SystemDate - Selected checkin month for checkin date
+19:34:46.969 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
+19:34:46.969 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
+19:34:46.983 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+20:58:43.513 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+20:58:43.666 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+20:59:48.127 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+20:59:50.292 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:00:12.401 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:00:14.556 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:03:04.391 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:03:06.637 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:05:24.948 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:06:13.380 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:06:13.662 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:08:17.701 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:08:18.174 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:10:07.001 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:10:09.194 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:11:42.158 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:11:44.451 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:13:10.289 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:13:12.483 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:27:36.895 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:28:35.377 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:28:37.840 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:31:14.789 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:31:17.353 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:54:26.648 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:54:27.642 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:56:33.217 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:56:35.068 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+21:59:46.254 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+21:59:49.270 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+23:18:17.274 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+23:18:17.614 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+23:18:17.615 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:18:17.842 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+23:18:18.353 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
+23:18:18.354 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:18:18.545 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+23:18:18.545 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:18:18.742 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+23:18:18.922 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 1

@@ -48,6 +48,9 @@ public class BasePage {
 	{
 		return DriverManager.getDriver().findElements(by);	
 	}
-	
+	protected WebElement findElement(By by)
+	{
+		return DriverManager.getDriver().findElement(by);	
+	}
 		
 }

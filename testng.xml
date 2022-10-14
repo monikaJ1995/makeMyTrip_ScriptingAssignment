@@ -9,10 +9,11 @@
      <class name="org.makeMyTrip.tests.HotelsPageTest">
      <methods>
          <include name="setUp"/>
-          <exclude name="validateRoomAndGuests"/>
+          <include name="validateRoomAndGuests"/>
           <exclude name="hotelBooking"/>
           <exclude name="validateHotelsPageLanding"/>
-          <include name="validateSelectHotelCity"/>
+          <exclude name="validateSelectHotelCity"/>
+          <exclude name="validatePricePerNight"/>
           <include name="tearDown"/> 
         </methods>
         </class>

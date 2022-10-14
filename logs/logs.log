@@ -1,41 +1,45 @@
-17:55:38.528 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
-17:55:38.550 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-18:02:25.260 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-18:02:25.596 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
-18:02:26.732 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
-18:02:27.118 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
-18:02:28.126 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
-18:02:28.214 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-18:02:28.540 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
-18:02:28.653 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
-18:02:29.455 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
-18:02:30.054 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
-18:02:31.143 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
-18:02:31.144 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
-18:02:31.150 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-18:03:51.309 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-18:03:51.547 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
-18:03:52.694 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
-18:03:53.065 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
-18:03:54.077 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
-18:03:54.191 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-18:03:54.553 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
-18:03:54.672 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
-18:03:55.540 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
-18:03:56.045 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
-18:03:57.240 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
-18:03:57.241 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
-18:03:57.248 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
-18:30:03.887 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
-18:30:04.140 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on select hotel city field
-18:30:05.817 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Autocomplete dropdown is displayed on screen
-18:30:06.242 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - City name is entered in select city text field
-18:30:07.250 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Entered city name is retrieved for verification
-18:30:07.352 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrived suggested search results for entered city name
-18:30:07.669 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on city Deira, Dubai
-18:30:07.786 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkin month for checkin date
-18:30:08.637 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as October & check in date as 21
-18:30:09.350 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected month for checkout date
-18:30:10.101 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected checkout date
-18:30:10.103 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selcted check in month as January & check in date as 21
-18:30:10.117 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+23:18:19.412 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+23:19:05.825 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+23:19:06.149 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+23:19:06.150 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:19:06.364 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+23:19:06.866 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
+23:19:06.867 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:19:07.072 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+23:19:07.072 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:19:07.227 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+23:19:07.396 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 1
+23:19:07.859 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+23:30:53.549 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+23:30:53.878 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+23:30:53.879 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:30:54.064 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+23:30:54.545 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
+23:30:54.546 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:30:54.755 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+23:30:54.756 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:30:54.953 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+23:30:55.153 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 1
+23:30:55.460 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+23:32:05.709 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+23:32:06.023 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+23:32:06.024 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:32:06.213 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+23:32:06.747 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
+23:32:06.749 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:32:06.927 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+23:32:06.927 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:32:07.095 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+23:32:07.304 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 1
+23:32:09.655 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver
+23:46:03.052 [main] INFO  org.makeMyTrip.driver.Driver - URL launched successfully
+23:46:03.391 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Clicked on rooms & guests field
+23:46:03.392 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:46:03.569 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Adding 3 rooms
+23:46:04.084 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Added 3 rooms
+23:46:04.085 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:46:04.294 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Removed room number 3
+23:46:04.295 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Retrieved count of rooms
+23:46:04.497 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - clicked on edit button for room number 1
+23:46:04.677 [main] INFO  org.makeMyTrip.pageLayer.HotelsWebPage - Selected children count as 2
+23:46:07.327 [main] INFO  org.makeMyTrip.driver.Driver - Closing driver

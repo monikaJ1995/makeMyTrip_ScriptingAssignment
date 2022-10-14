@@ -66,6 +66,15 @@ public class HotelsPageTest extends BaseTest{
 
 
 	}
+	@Test
+	public void validatePricePerNight() throws InterruptedException
+	{
+		hotel.selectPricePerNightCharge("0-");
+//		Thread.sleep(2000);
+		boolean prevButtonStatus = hotel.selectMultiplePricePerNightCharge();
+		Assertions.assertThat(prevButtonStatus).isFalse();
+		Thread.sleep(2000);
+	}
 	
 
 	@Test(priority=2, enabled=true)
@@ -85,7 +94,10 @@ public class HotelsPageTest extends BaseTest{
 		Assertions.assertThat(hotel.getRoomCount()).isEqualTo(3);
 
 		hotel.clickOnEditRoomDetails(1);
-		hotel.setChildrenCount(2);
+		hotel.setChildrenCount(2)
+		.selectChildAge("10")
+		.selectChildAge("11");
+		Thread.sleep(2000);
 
 //		Thread.sleep(2000);
 	}
